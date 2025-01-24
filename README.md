@@ -53,8 +53,6 @@ The frontend is built using React and styled with Tailwind CSS. It includes reus
 
 # Project Setup Guide
 
-# Project Setup Guide
-
 ## Backend Setup
 
 ### 1. **Set up environment variables in `.env`**:
