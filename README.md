@@ -51,8 +51,26 @@ The frontend is built using React and styled with Tailwind CSS. It includes reus
 
 ## Setup Instructions
 
-### Backend Setup
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <project-directory>
+# Project Setup Guide
+
+# Project Setup Guide
+
+## Backend Setup
+
+### 1. **Set up environment variables in `.env`**:
+
+You need to configure your database connection by setting the following variables in the `.env` file:
+
+- `DB_HOST`: Database host (e.g., `localhost` or an external database host).
+- `DB_PORT`: Database port (default: `5432` for PostgreSQL).
+- `DB_USER`: Database user.
+- `DB_PASSWORD`: Database password.
+- `DB_NAME`: Database name.
+- `PORT`: The port on which the backend server will run (default `8000`).
+
+### 2. **Run the backend**:
+
+Once the dependencies are installed and environment variables are set, you can start the backend server by running:
+
+```bash
+npm start
